@@ -1,0 +1,24 @@
+###
+POST http://localhost:8081/login
+Content-Type: application/json
+
+{"userId": "pepe", "password": "123456"}
+
+
+###
+POST http://localhost:8081/api/v1/phrase
+Authorization: Basic manuel manuel123
+Content-Type: application/json
+
+{"emoji": "😄🚀🐙", "phrase": "Doing my homework"}
+
+###
+
+
+POST http://localhost:8081/api/v1/phrase
+Content-Type: application/json
+Authorization: Basic manuel manuel123
+
+{"emoji": "🥰🤪", "phrase": "Doing my homework2"}
+
+###
